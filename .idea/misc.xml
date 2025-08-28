@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ActiveTabHighlighterConfiguration">
+    <option name="background">
+      <PersistentColor>
+        <option name="enabled" value="true" />
+        <option name="red" value="173" />
+        <option name="green" value="46" />
+        <option name="blue" value="156" />
+      </PersistentColor>
+    </option>
+  </component>
+  <component name="JsBuildToolPackageJson" sorting="DEFINITION_ORDER" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

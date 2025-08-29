@@ -16,7 +16,7 @@ func main() {
 	}
 	scriptDir := filepath.Dir(execPath)
 
-	projectDir := os.Getenv("DEVENV_ROOT") // filepath.Join(scriptDir, "..", "..", "..", "..")
+	projectDir := filepath.Join(scriptDir, "..", "..", "..", "..")
 	devenvFile := filepath.Join(projectDir, "devenv.nix")
 	if _, err := os.Stat(devenvFile); os.IsNotExist(err) {
 		fmt.Fprintf(os.Stderr, "Error: devenv.nix file not found in project directory\n")
